@@ -117,7 +117,7 @@ Once configured, ask your AI assistant:
 - **Reputation Registry** — Structured feedback signals (0–100 scores) with x402 payment proof
 - **Validation Registry** — Independent validator hooks (staking, zkML, TEE attestation)
 
-AgentScan indexes 22,000+ registered agents across 21 blockchain networks.
+AgentScan is the official explorer for the ERC-8004 ecosystem, indexing agents across multiple blockchain networks.
 
 ## Development
 
