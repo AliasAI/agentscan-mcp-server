@@ -1,6 +1,6 @@
 {
   "name": "@aliasai2026/agentscan-mcp-server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP Server for AgentScan — search, explore, and evaluate ERC-8004 on-chain AI agents",
   "author": "Alias Labs",
   "license": "MIT",
