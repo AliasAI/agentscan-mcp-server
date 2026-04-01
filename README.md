@@ -9,7 +9,7 @@ Use it in Claude Code, Claude Desktop, Cursor, VS Code, or any MCP-compatible cl
 ### Claude Code
 
 ```bash
-claude mcp add agentscan -- npx @aliaslabs/agentscan-mcp-server
+claude mcp add agentscan -- npx @aliasai2026/agentscan-mcp-server
 ```
 
 ### Claude Desktop
@@ -21,7 +21,7 @@ Add to your `claude_desktop_config.json`:
   "mcpServers": {
     "agentscan": {
       "command": "npx",
-      "args": ["@aliaslabs/agentscan-mcp-server"]
+      "args": ["@aliasai2026/agentscan-mcp-server"]
     }
   }
 }
@@ -36,7 +36,7 @@ Add to your MCP settings:
   "mcpServers": {
     "agentscan": {
       "command": "npx",
-      "args": ["@aliaslabs/agentscan-mcp-server"]
+      "args": ["@aliasai2026/agentscan-mcp-server"]
     }
   }
 }

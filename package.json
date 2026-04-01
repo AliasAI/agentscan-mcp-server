@@ -1,5 +1,5 @@
 {
-  "name": "@aliaslabs/agentscan-mcp-server",
+  "name": "@aliasai2026/agentscan-mcp-server",
   "version": "0.1.0",
   "description": "MCP Server for AgentScan — search, explore, and evaluate ERC-8004 on-chain AI agents",
   "author": "Alias Labs",
@@ -17,6 +17,8 @@
     "build": "tsc",
     "dev": "tsc --watch",
     "start": "node dist/index.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
@@ -25,7 +27,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "vitest": "^4.1.2"
   },
   "engines": {
     "node": ">=18.0.0"
